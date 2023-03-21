@@ -1,0 +1,85 @@
+INSERTED 50
+50Recolor called on 50
+CASE 1
+CASE 2
+INSERTED 60
+60Recolor called on 60
+INSERTED 70
+70Recolor called on 70
+CASE 3.2.1 TRIGGERED ON 70
+INSERTED 80
+80Recolor called on 80
+CASE 3.1 TRIGGERED ON 80
+INSERTED 90
+90Recolor called on 90
+CASE 3.2.1 TRIGGERED ON 90
+INSERTED 100
+100Recolor called on 100
+CASE 3.1 TRIGGERED ON 100
+INSERTED 110
+110Recolor called on 110
+CASE 3.2.1 TRIGGERED ON 110
+INSERTED 120
+120Recolor called on 120
+CASE 3.1 TRIGGERED ON 120
+CASE 3.2.1 TRIGGERED ON 100
+INSERTED 49
+49Recolor called on 49
+INSERTED 48
+48Recolor called on 48
+CASE 3.2.1 MIRROR TRIGGERED ON 48
+INSERTED 47
+47Recolor called on 47
+CASE 3.1 TRIGGERED ON 47
+CASE 3.1 TRIGGERED ON 49
+INSERTED 46
+46Recolor called on 46
+CASE 3.2.1 MIRROR TRIGGERED ON 46
+INSERTED 45
+45Recolor called on 45
+CASE 3.1 TRIGGERED ON 45
+CASE 3.2.1 MIRROR TRIGGERED ON 47
+INSERTED 44
+44Recolor called on 44
+CASE 3.2.1 MIRROR TRIGGERED ON 44
+INSERTED 43
+43Recolor called on 43
+CASE 3.1 TRIGGERED ON 43
+CASE 3.1 TRIGGERED ON 45
+INSERTED 42
+42Recolor called on 42
+CASE 3.2.1 MIRROR TRIGGERED ON 42
+INSERTED 41
+41Recolor called on 41
+CASE 3.1 TRIGGERED ON 41
+CASE 3.2.1 MIRROR TRIGGERED ON 43
+INSERTED 40
+40Recolor called on 40
+CASE 3.2.1 MIRROR TRIGGERED ON 40
+INSERTED 39
+39Recolor called on 39
+CASE 3.1 TRIGGERED ON 39
+CASE 3.1 TRIGGERED ON 41
+CASE 3.2.1 MIRROR TRIGGERED ON 45
+EVERYTHING DONE 
+Preorder: 
+Root is 49 Left Child: 45 Right Child: 80 Color is: 0
+NODE IS: 45 Parent is: 49 Left Child: 43 Right Child 47 Color is: 1
+NODE IS: 43 Parent is: 45 Left Child: 41 Right Child 44 Color is: 0
+NODE IS: 41 Parent is: 43 Left Child: 40 Right Child 42 Color is: 1
+NODE IS: 40 Parent is: 41 Left Child: 39 Right Child is NULL  Color is: 0
+NODE IS: 39 Parent is: 40 No Kids ShatterScore is: 39 1
+NODE IS: 42 Parent is: 41 No Kids ShatterScore is: 42 0
+NODE IS: 44 Parent is: 43 No Kids ShatterScore is: 44 0
+NODE IS: 47 Parent is: 45 Left Child: 46 Right Child 48 Color is: 0
+NODE IS: 46 Parent is: 47 No Kids ShatterScore is: 46 0
+NODE IS: 48 Parent is: 47 No Kids ShatterScore is: 48 0
+NODE IS: 80 Parent is: 49 Left Child: 60 Right Child 100 Color is: 1
+NODE IS: 60 Parent is: 80 Left Child: 50 Right Child 70 Color is: 0
+NODE IS: 50 Parent is: 60 No Kids ShatterScore is: 50 0
+NODE IS: 70 Parent is: 60 No Kids ShatterScore is: 70 0
+NODE IS: 100 Parent is: 80 Left Child: 90 Right Child 110 Color is: 0
+NODE IS: 90 Parent is: 100 No Kids ShatterScore is: 90 0
+NODE IS: 110 Parent is: 100 Left Child is NULL  Right Child: 120 Color is: 0
+NODE IS: 120 Parent is: 110 No Kids ShatterScore is: 120 1
+50607080901001101204647484442
