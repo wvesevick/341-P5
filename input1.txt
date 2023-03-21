@@ -1,0 +1,97 @@
+INSERTED 50
+50Recolor called on 50
+CASE 1
+CASE 2
+INSERTED 40
+40Recolor called on 40
+INSERTED 60
+60Recolor called on 60
+INSERTED 100
+100Recolor called on 100
+CASE 3.1 TRIGGERED ON 100
+INSERTED 20
+20Recolor called on 20
+INSERTED 200
+200Recolor called on 200
+CASE 3.2.1 TRIGGERED ON 200
+INSERTED 45
+45Recolor called on 45
+INSERTED 46
+46Recolor called on 46
+CASE 3.1 TRIGGERED ON 46
+INSERTED 47
+47Recolor called on 47
+CASE 3.2.1 TRIGGERED ON 47
+INSERTED 399
+399Recolor called on 399
+CASE 3.1 TRIGGERED ON 399
+INSERTED 87
+87Recolor called on 87
+INSERTED 2
+2Recolor called on 2
+INSERTED 3
+3Recolor called on 3
+CASE 3.2.2 MIRROR TRIGGERED ON 3
+CASE 3.2.1 MIRROR TRIGGERED ON 2
+INSERTED 400
+400Recolor called on 400
+CASE 3.2.1 TRIGGERED ON 400
+INSERTED 401
+401Recolor called on 401
+CASE 3.1 TRIGGERED ON 401
+CASE 3.1 TRIGGERED ON 399
+INSERTED 402
+402Recolor called on 402
+CASE 3.2.1 TRIGGERED ON 402
+INSERTED 403
+403Recolor called on 403
+CASE 3.1 TRIGGERED ON 403
+CASE 3.2.1 TRIGGERED ON 401
+INSERTED 404
+404Recolor called on 404
+CASE 3.2.1 TRIGGERED ON 404
+INSERTED 405
+405Recolor called on 405
+CASE 3.1 TRIGGERED ON 405
+CASE 3.1 TRIGGERED ON 403
+INSERTED 406
+406Recolor called on 406
+CASE 3.2.1 TRIGGERED ON 406
+INSERTED 407
+407Recolor called on 407
+CASE 3.1 TRIGGERED ON 407
+CASE 3.2.1 TRIGGERED ON 405
+INSERTED 408
+408Recolor called on 408
+CASE 3.2.1 TRIGGERED ON 408
+INSERTED 409
+409Recolor called on 409
+CASE 3.1 TRIGGERED ON 409
+CASE 3.1 TRIGGERED ON 407
+CASE 3.2.1 TRIGGERED ON 403
+EVERYTHING DONE 
+Preorder: 
+Root is 399 Left Child: 50 Right Child: 403 Color is: 0
+NODE IS: 50 Parent is: 399 Left Child: 40 Right Child 100 Color is: 1
+NODE IS: 40 Parent is: 50 Left Child: 3 Right Child 46 Color is: 0
+NODE IS: 3 Parent is: 40 Left Child: 2 Right Child 20 Color is: 0
+NODE IS: 2 Parent is: 3 No Kids ShatterScore is: 2 1
+NODE IS: 20 Parent is: 3 No Kids ShatterScore is: 20 1
+NODE IS: 46 Parent is: 40 Left Child: 45 Right Child 47 Color is: 0
+NODE IS: 45 Parent is: 46 No Kids ShatterScore is: 45 1
+NODE IS: 47 Parent is: 46 No Kids ShatterScore is: 47 1
+NODE IS: 100 Parent is: 50 Left Child: 60 Right Child 200 Color is: 0
+NODE IS: 60 Parent is: 100 Left Child is NULL  Right Child: 87 Color is: 0
+NODE IS: 87 Parent is: 60 No Kids ShatterScore is: 87 1
+NODE IS: 200 Parent is: 100 No Kids ShatterScore is: 200 0
+NODE IS: 403 Parent is: 399 Left Child: 401 Right Child 405 Color is: 1
+NODE IS: 401 Parent is: 403 Left Child: 400 Right Child 402 Color is: 0
+NODE IS: 400 Parent is: 401 No Kids ShatterScore is: 400 0
+NODE IS: 402 Parent is: 401 No Kids ShatterScore is: 402 0
+NODE IS: 405 Parent is: 403 Left Child: 404 Right Child 407 Color is: 0
+NODE IS: 404 Parent is: 405 No Kids ShatterScore is: 404 0
+NODE IS: 407 Parent is: 405 Left Child: 406 Right Child 408 Color is: 1
+NODE IS: 406 Parent is: 407 No Kids ShatterScore is: 406 0
+NODE IS: 408 Parent is: 407 Left Child is NULL  Right Child: 409 Color is: 0
+NODE IS: 409 Parent is: 408 No Kids ShatterScore is: 409 1
+400401402403404405406407408409608710020045464720
